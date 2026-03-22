@@ -1,10 +1,8 @@
 from unsloth import FastLanguageModel
-import torch
-
-model_path = "./qwen-3.5-2b"
+from constants import *
 
 model, tokenizer = FastLanguageModel.from_pretrained(
-    model_name = model_path,
+    model_name = MODELS_DIR / QWEN2B,
     max_seq_length = 2048,
     # load_in_4bit = True,
 )

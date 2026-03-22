@@ -9,6 +9,7 @@ dependencies = [
     "transformers>=5.3.0",
     "torch>=2.10",
     "unsloth>=2026.3.8",
+    "datasets>=4.3.0",
 ]
 
 [[tool.uv.index]]
